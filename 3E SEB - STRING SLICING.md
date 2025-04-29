@@ -1,30 +1,34 @@
 # Exp.No:3e
-## SEB - STRING SLICING
+## SEB - SWAPPING TWO TUPLES
 
 ---
 
 ### AIM  
-To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
-
----
+To write a Python program to accept two tuples from the user and swap their values.
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Accept a string as input.  
-3. Take a slice of the input string from index **2** to **10** (Python uses 0-based indexing, so index 2 refers to the 3rd character, i.e., the 4th character in natural terms).  
-4. Reverse the sliced substring.  
-5. Extract every second character from the reversed substring using slicing (`[::2]`).  
-6. Print the final processed string.  
-7. Terminate the program.
+1. Begin the program.
+2. Accept two tuples from the user using eval() and store them in tuple1 and tuple2.
+3. Swap the tuples using tuple unpacking: tuple1, tuple2 = tuple2, tuple1.
+4. Print the values of tuple1 and tuple2 after the swap.
+5. Terminate the program.
 
----
 
 ### PROGRAM
 
-```
-```
+tuple1=eval(input()) <br>
+tuple2=eval(input())  <br>
+tuple1,tuple2=tuple2,tuple1 <br>
+print(tuple1)  <br>
+print(tuple2) <br>
+
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/eaed4efd-1cd3-41e0-8025-3b6a292bf176)
+
+
 ### RESULT
+
+Thus the Python program to swap the values of two tuples was executed successfully and verified.
